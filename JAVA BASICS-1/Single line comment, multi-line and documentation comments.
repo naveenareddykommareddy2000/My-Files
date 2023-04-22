@@ -1,0 +1,24 @@
+3.Write a program for a Single line comment, multi-line and documentation comments.
+
+Single line comment:Used to comment only one line of the code.
+Syntax://
+public class Main {    
+public static void main(String[] args) {    
+int i=10; // i is a variable with value 10  
+System.out.println(i);  //printing the variable i  
+}    
+}    
+
+Mutli line comment: /* and */
+
+public class Main {    
+public static void main(String[] args) {    
+/* Let's declare and  
+ print variable in java. */    
+  int i=10;    
+    System.out.println(i);    
+/* float j = 9.9; 
+    float k = 4.9; 
+    System.out.println( j + k ); */    
+}    
+}    
