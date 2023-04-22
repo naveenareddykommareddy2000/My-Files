@@ -1,0 +1,14 @@
+2. Write a program to print your name.
+
+import java.util.Scanner;
+public class Main {
+  public static void main(String[] args) 
+  {
+    Scanner sc = new Scanner (System.in);
+    System.out.print("Input your First name: ");
+    String fname = sc.next();
+    System.out.print("Input your Last name: ");
+    String lname = sc.next();
+    System.out.print(fname+" "+lname);
+  }
+}
