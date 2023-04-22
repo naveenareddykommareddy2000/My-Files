@@ -1,1 +1,26 @@
+1. How to create a class, object, method and its signature.
+Solution:
+Class: To create a class use "class" Keyword.
+Example: 
+public class Main {
+  int M = 50;
+}
 
+Object: In Java, an object is created from a class.
+Example:
+public class Main{
+int M = 50;
+public static void main(String[] args) {
+Main myObj=new Main();
+System.Out.Println(myObj.x);
+}
+}
+Method:It is a block of code or collection of statements
+Example:
+public class Main   
+{  
+public static void main(String[] args)   
+{    
+System.out.print("The max num is: " + Math.max(9,7));  
+}  
+}  
