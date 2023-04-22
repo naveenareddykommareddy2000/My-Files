@@ -1,0 +1,24 @@
+4. Write a program to find the two numbers equal or not
+
+import java.io.*;
+import java.util.Scanner;
+class Operator {
+    public static void main(String[] args) {
+        int num1, num2;
+
+        System.out.println("enter num1 value:");
+        System.out.println("enter num2 value:");
+        Scanner sc=new Scanner(System.in);
+        num1=sc.nextInt();
+        num2=sc.nextInt();
+        if(num1==num2)
+        {
+             System.out.println("Two Numbers are Equal");
+        }
+        else
+        {
+            System.out.println("Two Numbers are not Equal");
+        }
+        
+    }
+}
