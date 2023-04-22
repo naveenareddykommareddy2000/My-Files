@@ -1,0 +1,14 @@
+2.Write a method for increment and decrement operators(++, --).
+
+import java.io.*;
+import java.util.Scanner;
+class Operator {
+    public static void main(String[] args) {
+        int var1;
+        System.out.println("enter a value:");
+        Scanner sc=new Scanner(System.in);
+        var1=sc.nextInt(); 
+        System.out.println(var1++);
+        System.out.println(var1--);
+    }
+}
