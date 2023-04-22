@@ -1,0 +1,18 @@
+5.Define the local and Global variables with the same name and print both variables and 
+understand the scope of the variables.
+
+//Local Variable:
+
+public int add(){
+int a =4;
+int b=5;
+return a+b;
+
+//Global Variable:
+
+int a =4;
+int b=5;
+public int add(){
+return a+b;
+}
+}
