@@ -1,0 +1,19 @@
+4.Define variables for different Data Types int, Boolean, char, float, double and print on the 
+ Console.
+
+ 
+ class Test {
+
+    public static void main(String[] args) {
+        int a=10;
+        double b = 123.43555;
+        char c = 'e';
+        boolean d = true;
+        float e=3.1f;
+        System.out.println("int: " + a);
+        System.out.println("Double: " + b);
+        System.out.println("Character: " + c);
+        System.out.println("Boolean: " + d);
+        System.out.println("float: " + e);
+    }
+}
