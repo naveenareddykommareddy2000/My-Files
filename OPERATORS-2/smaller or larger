@@ -1,1 +1,22 @@
+7. Print the smaller and larger number.
 
+import java.io.*;
+import java.util.Scanner;
+class Test {
+ 
+	public static void main(String[] args) {
+ 
+		int num1;
+		int num2;
+		System.out.println("Enter number 1: ");
+		System.out.println("Enter number 2: ");
+		Scanner sc=new Scanner(System.in);
+		num1=sc.nextInt();
+		num2=sc.nextInt();
+		
+		
+ 
+		System.out.println("The largest number of the two numbers is " + Math.max(num1,num2));
+		System.out.println("The smallest number of the two numbers is " + Math.min(num1,num2));
+	}
+}
