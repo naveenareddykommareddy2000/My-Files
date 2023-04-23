@@ -1,0 +1,29 @@
+8. Write a program to find Armstrong number or not.
+
+import java.io.*;
+import java.util.Scanner;
+public class ArmstrongNumber {
+    public static void main(String[] args)
+    {
+ 
+        int n;
+        int temp;
+        int m = 0;
+         System.out.println("Enter a Number: ");
+         Scanner sc=new Scanner(System.in);
+         n=sc.nextInt();
+         temp=n;
+        while (n > 0) {
+ 
+            int rem = n % 10;
+            m = (m) + (rem * rem * rem);
+            n = n / 10;
+        }
+        if (temp == m) {
+            System.out.println("Yes. It is Armstrong Number.");
+        }
+        else {
+            System.out.println("No. It is not an Armstrong Number.");
+        }
+    }
+}
