@@ -1,0 +1,8 @@
+public class Replace{
+public static void main(String args[]){ 
+    String text = "Hello All, Welcome to the Jala Academy!";
+    System.out.print(text.replace("Hello", "welcome"));
+    
+    
+  }
+}
