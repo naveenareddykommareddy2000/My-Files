@@ -1,0 +1,6 @@
+public class trim{  
+public static void main(String args[]){  
+String s1="Welcome to the jala Academy!!";  
+System.out.println(s1.toUpperCase());
+System.out.println(s1.toLowerCase());
+}}  
