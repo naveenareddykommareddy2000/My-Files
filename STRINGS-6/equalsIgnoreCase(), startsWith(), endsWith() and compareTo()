@@ -1,0 +1,13 @@
+public class Replace{
+public static void main(String args[]){ 
+    String str = "Welcome to te Jala Academy";
+    String s1="Welcome";
+    String s2="jala";
+    String s3="hello";
+System.out.println(s1.equalsIgnoreCase(s2));
+System.out.println(s2.compareTo(s3));
+ System.out.println(str.startsWith("This"));
+ System.out.println(str.startsWith("to", 8));
+System.out.println(str.endsWith("Academy"));   
+  }
+}
