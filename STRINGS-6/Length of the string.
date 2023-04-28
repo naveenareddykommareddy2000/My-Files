@@ -1,0 +1,7 @@
+3.Finding the length of the string.
+
+public class lengthExample{
+public static void main(String args[]){
+String s1="Jala Academy";
+System.out.println(s1.length());
+}}
