@@ -1,0 +1,10 @@
+ Comparing strings using the methods equals().
+ 
+public class Equal{  
+public static void main(String args[]){  
+String s1="Jala";  
+String s2="Academy";
+String s3="Jala";
+System.out.println(s1.equals(s2));
+System.out.println(s1.equals(s3));
+}}  
