@@ -1,0 +1,7 @@
+2. Concatenating two strings using + operator
+
+public class Concat{
+public static void main(String args[]){
+String s1="Jala";
+System.out.println(s1+"Academy");
+}}
