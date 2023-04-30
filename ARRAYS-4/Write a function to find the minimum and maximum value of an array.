@@ -1,0 +1,9 @@
+import java.util.Arrays;
+public class Test {
+  public static void main(String[] args) {
+    int[] array = new int[]{10,99,23,45,67,43,21,87};
+    Arrays.sort(array);
+    System.out.println("Minimum value: " + array[0]);
+    System.out.println("Maximum value: " + array[array.length - 1]);
+}  }
+
