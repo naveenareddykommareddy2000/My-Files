@@ -1,0 +1,18 @@
+class Country {
+  static int Counter;
+  String name;
+  int dummyCounter;
+  public static void main(String[] args) {
+    Country ob1 = new Country();
+    ob1.name = "India";
+    ob1.dummyCounter = 1;
+    ++ob1.Counter;
+    Country ob2 = new Country();
+    ob2.name = "Italy";
+    ob2.dummyCounter = 1;
+    ++ob2.Counter;
+    System.out.println("ob1.Counter = " + ob1.Counter);
+    System.out.println("ob2.Counter = " + ob2.Counter);
+    System.out.println("Country.Counter = " + Country.Counter);
+  }
+}
